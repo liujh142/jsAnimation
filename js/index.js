@@ -18,3 +18,6 @@ var step = 5;
 // }
 // move();
 var ball = document.querySelector('#ball').classList.add('ball-move')
+var REM = window.innerWidth/10;
+var html = document.querySelector('html');
+html.style.fontSize = REM + 'px';
